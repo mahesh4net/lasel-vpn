@@ -8,7 +8,7 @@ export default function Reviews() {
     var settings = {
       dots: true,
       className: "center",
-      centerMode: true,
+     
       infinite: true,
       centerPadding: "60px",
       slidesToShow: 3,
@@ -21,6 +21,13 @@ export default function Reviews() {
     return (
       <>
         <div className="review-section">
+          <h2>
+            Trusted by Thousands of <br></br>Happy Customer
+          </h2>
+          <p className="imp-p">
+            These are the stories of our customers who have joined us with great
+            pleasure when using this crazy feature.
+          </p>
           <Slider {...settings} id="slider">
             <div className="review-box">
               <div className="user-details">

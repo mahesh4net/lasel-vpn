@@ -5,6 +5,7 @@ import Features from "./components/features";
 import Pricing from "./components/pricing";
 import Map from "./components/map";
 import Reviews from "./components/reviews";
+import Footer from "./components/footer";
 
 function App() {
   return <>
@@ -15,7 +16,7 @@ function App() {
     <Pricing></Pricing>
     <Map></Map>
     <Reviews></Reviews>
-
+    <Footer></Footer>
   </>
 }
 
