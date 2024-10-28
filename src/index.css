@@ -39,11 +39,13 @@ font-size: 1.1rem !important;
 }
 
 
+/*-------- Navbar section------*/
 
 .nav-container-outer{
  
- 
 
+position: relative;
+z-index: 999 !important;
   width: 100%;
 }
 
@@ -51,13 +53,14 @@ font-size: 1.1rem !important;
 .nav-container{
   width: 100%;
   
+
   padding-inline: 10%;
   padding-block: 2rem;
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
   background-color: white;
- 
+ top: 0;
 }
 
 .nav-container a {
@@ -124,6 +127,91 @@ border: 3px solid #F53855;
 
 .sign-in:hover{
   color: #F53855 !important;
+}
+
+
+
+
+/*----- Mobile navbar section----*/
+
+.mobile-nav-container{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-inline: 5%;
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    transform: translateY(-100%);
+  background-color: white;
+  
+  box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.078);
+ 
+  overflow: hidden;
+  transition: max-height 0.5s ease-in;
+}
+
+.mobile-nav-container-outer{
+  position: relative;
+  width: 100%;
+  z-index: 10;
+
+ 
+  background-color: red;
+}
+
+
+.mobile-nav-links{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.mobile-nav-links a {
+  text-decoration: none;
+ padding-block: 1rem;
+}
+
+.mobile-nav-links a:hover {
+ color: rgb(94, 112, 246);
+}
+
+.mobile-nav-links hr{
+  min-width: 100%;
+  border-top: 2px solid #d6243e;
+}
+
+.mobile-nav-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.mobile-sign-in{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 1rem 2rem;
+  
+  font-weight: 500;
+  background-color: black;
+}
+.mobile-sign-up{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 1rem 2rem;
+  
+  background-color: #d6243e;
+  
+}
+
+.mobile-sign-in:hover{
+background-color: rgb(60, 60, 60);
+}
+.mobile-sign-up:hover{
+background-color: #a40b22;
 }
 
 

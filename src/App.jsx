@@ -6,20 +6,20 @@ import Pricing from "./components/pricing";
 import Map from "./components/map";
 import Reviews from "./components/reviews";
 import Footer from "./components/footer";
+import Mobilenav from "./components/mobilenav";
 
 function App() {
   return (
     <>
-   
-          <Nav></Nav>
-          <Hero></Hero>
-          <Stats></Stats>
-          <Features></Features>
-          <Pricing></Pricing>
-          <Map></Map>
-          <Reviews></Reviews>
-          <Footer></Footer>
-       
+      <Nav></Nav>
+      <Mobilenav></Mobilenav>
+      <Hero></Hero>
+      <Stats></Stats>
+      <Features></Features>
+      <Pricing></Pricing>
+      <Map></Map>
+      <Reviews></Reviews>
+      <Footer></Footer>
     </>
   );
 }

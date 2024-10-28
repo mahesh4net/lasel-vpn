@@ -1,14 +1,8 @@
 import { useEffect } from "react";
 import navlogo from "../assets/navlogo.png";
+import Mobilenav from "./mobilenav";
 
 export default function Nav() {
-
-
-  
-
-    
-
-
   return (
     <>
       <div className="nav-container-outer">
@@ -28,16 +22,13 @@ export default function Nav() {
               Sing In
             </a>
 
-            <a
-              href="#"
-              className="sign-up"
-              id="sign-up"
-              
-            >
+            <a href="#" className="sign-up" id="sign-up">
               Sign Up
             </a>
           </div>
         </div>
+
+             
       </div>
     </>
   );
