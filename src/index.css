@@ -10,11 +10,8 @@
 
 
 body {
-  display: flex;
-  justify-content: center;
-  
-  
 }
+
 *{
   padding: 0;
   margin: 0;
@@ -44,19 +41,23 @@ font-size: 1.1rem !important;
 
 
 .nav-container-outer{
-  
+ 
+ 
+
   width: 100%;
 }
 
 
 .nav-container{
   width: 100%;
+  
   padding-inline: 10%;
   padding-block: 2rem;
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
   background-color: white;
+ 
 }
 
 .nav-container a {
@@ -68,8 +69,8 @@ font-size: 1.1rem !important;
 }
 
 .nav-logo{
-  justify-self: start;
-width: 15%;
+  justify-self: flex-start;
+width: 25%;
 display: flex;
 justify-content: flex-start;
 align-items: center;
@@ -80,19 +81,22 @@ align-items: center;
 }
 
 .nav-links{
+  
 width: 40%;
+
 display: flex;
-gap: 0.5rem;
+gap: 0.7rem;
 justify-content: space-between;
 align-items: center;
 }
 
 .nav-buttons{
-  justify-self: end;
-width: 15%;
+  justify-self: flex-end;
+width: 25%;
+
 display: flex;
-gap: 0.5rem;
-justify-content: space-between;
+gap: 0.7rem;
+justify-content: flex-end;
 align-items: center;
 }
 
@@ -132,6 +136,8 @@ border: 3px solid #F53855;
   display: flex;
   gap: 2rem;
   padding-inline: 10%;
+
+
 }
 
 .hero-section-text{
@@ -469,9 +475,15 @@ align-items: center;
   width: auto;
   height: auto;
   overflow: hidden !important;
-  max-width: 1500px;
+  
   transition: border 0.5s linear !important;
   margin-inline: auto;
+}
+
+
+.slick-track{
+  display: flex;
+  align-items: stretch !important;
 }
 
 .review-section h2{
@@ -739,3 +751,163 @@ color: white;
 
 }
 
+
+
+/*----------media queries------*/
+
+
+@media (min-width: 1920px){
+  html{
+          font-size: 18px;
+  }
+  :root{
+    font-size: 18px;
+  }
+}
+@media (min-width: 2500px){
+  html{
+          font-size: 25px;
+  }
+  :root{
+    font-size: 25px;
+  }
+}
+@media (min-width: 3000px){
+  html{
+          font-size: 30px;
+  }
+  :root{
+    font-size: 30px;
+  }
+}
+@media (min-width: 4000px){
+  html{
+          font-size: 40px;
+  }
+  :root{
+    font-size: 40px;
+  }
+}
+
+
+
+
+@media (max-width: 1440px){
+  html{
+          font-size: 16px;
+  }
+  :root{
+    font-size: 16px;
+  }
+
+ 
+
+}
+
+@media (max-width: 1300px){
+  html{
+          font-size: 15px;
+  }
+  :root{
+    font-size: 15px;
+  }
+
+ 
+
+}
+@media (max-width: 1200px){
+  html{
+          font-size: 15px;
+  }
+  :root{
+    font-size: 15px;
+  }
+
+ .nav-container{
+    padding-inline: 7%;
+  }
+  .stats-section{
+    margin-inline: 7%;
+  }
+  .hero-section{
+    padding-inline: 7%;
+  }
+  .features-section{
+    padding-inline: 7%;
+  }
+
+  .pricing-section{
+    padding-inline: 7%;
+  }
+  .map-section{
+    padding-inline: 7%;
+  }
+  .review-section{
+    padding-inline: 7%;
+  }
+  .footer-outer{
+    padding-inline: 7%;
+  }
+
+}
+
+
+@media (max-width: 1024px){
+  html{
+          font-size: 14px;
+  }
+  :root{
+    font-size: 14px;
+  }
+  .nav-container{
+    padding-inline: 5%;
+  }
+  .stats-section{
+    margin-inline: 5%;
+  }
+  .hero-section{
+    padding-inline: 5%;
+  }
+  .features-section{
+    padding-inline: 5%;
+  }
+
+  .pricing-section{
+    padding-inline: 5%;
+  }
+  .map-section{
+    padding-inline: 5%;
+  }
+  .review-section{
+    padding-inline: 5%;
+  }
+  .footer-outer{
+    padding-inline: 5%;
+  }
+
+
+  
+}
+
+
+@media (max-width: 980px){
+  html{
+          font-size: 14px;
+  }
+  :root{
+    font-size: 14px;
+  }
+
+  .cards-container{
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+
+  }
+
+
+  .freecard, .standardcard, .premiumcard{
+   width: calc(50% - 2rem)
+
+  }
+
+}

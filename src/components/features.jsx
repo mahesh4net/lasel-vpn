@@ -48,21 +48,21 @@ export default function Features() {
           <h2 class="animate__animated ">
             We Provide Many Features You Can Use
           </h2>
-          <h6 class="animate__animated " style={{ animationDelay: "0.2s" }}>
+          <h6 class="animate__animated " style={{ animationDelay: "0s" }}>
             You can explore the features that we provide with fun and have their
             own functions each feature.
           </h6>
 
-          <p class="animate__animated" style={{ animationDelay: "0.5s" }}>
+          <p class="animate__animated" style={{ animationDelay: "0.25s" }}>
             Powerfull online protection.
           </p>
-          <p class="animate__animated " style={{ animationDelay: "0.6s" }}>
+          <p class="animate__animated " style={{ animationDelay: "0.3s" }}>
             Internet without borders.
           </p>
-          <p class="animate__animated " style={{ animationDelay: "0.7s" }}>
+          <p class="animate__animated " style={{ animationDelay: "0.35s" }}>
             Supercharged VPN
           </p>
-          <p class="animate__animated " style={{ animationDelay: "0.8s" }}>
+          <p class="animate__animated " style={{ animationDelay: "0.4s" }}>
             No specific time limits.
           </p>
         </div>

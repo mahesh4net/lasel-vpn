@@ -8,16 +8,20 @@ import Reviews from "./components/reviews";
 import Footer from "./components/footer";
 
 function App() {
-  return <>
-    <Nav></Nav>
-    <Hero></Hero>
-    <Stats></Stats>
-    <Features></Features>
-    <Pricing></Pricing>
-    <Map></Map>
-    <Reviews></Reviews>
-    <Footer></Footer>
-  </>
+  return (
+    <>
+   
+          <Nav></Nav>
+          <Hero></Hero>
+          <Stats></Stats>
+          <Features></Features>
+          <Pricing></Pricing>
+          <Map></Map>
+          <Reviews></Reviews>
+          <Footer></Footer>
+       
+    </>
+  );
 }
 
 export default App;
