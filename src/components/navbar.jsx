@@ -1,8 +1,25 @@
 import { useEffect } from "react";
 import navlogo from "../assets/navlogo.png";
-import Mobilenav from "./mobilenav";
+import { mycontext } from "./context";
+import { useContext } from "react";
+
 
 export default function Nav() {
+
+const {showmenu, hidemenu, toggleMenuOn, toggleMenuOff} = useContext(mycontext)
+
+
+
+
+
+
+
+
+
+
+
+
+  
   return (
     <>
       <div className="nav-container-outer">
@@ -26,9 +43,11 @@ export default function Nav() {
               Sign Up
             </a>
           </div>
+          
+            <i class="fa-solid fa-bars" ref={showmenu} onClick={toggleMenuOn}></i>
+            <i class="fa-solid fa-xmark" ref={hidemenu} onClick={toggleMenuOff}></i>
+        
         </div>
-
-             
       </div>
     </>
   );
