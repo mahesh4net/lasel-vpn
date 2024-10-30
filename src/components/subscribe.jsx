@@ -12,7 +12,7 @@ export default function Subscribe() {
            
         <div className="subscribe">
           <div className="sub-text">
-            <h2>Subscribe Now for <br></br> Get Special Features!</h2>
+            <h2>Subscribe Now for Get Special Features!</h2>
             <p>Let's subscribe with us and find the fun.</p>
           </div>
           <div className="sub-btn">

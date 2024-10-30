@@ -54,7 +54,7 @@ export default function Pricingcards() {
 
         <div className="premium-card-btn">
           <h3>
-            $12 <span id="card-span">/ month</span>
+            $12 <span class="card-span">/ month</span>
           </h3>
           <a href="">Select</a>
         </div>
