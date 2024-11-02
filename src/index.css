@@ -779,6 +779,9 @@ font-size: 2rem !important;
 }
 .sub-btn{
   width: 40%;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .subscribe h2{
@@ -1186,6 +1189,7 @@ color: white;
 
   .sub-btn{
     width: 100%;
+    justify-content: center;
   }
 }
 @media (max-width: 426px){
