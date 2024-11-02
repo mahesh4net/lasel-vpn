@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lasel-vpn/static/css/main.88bcf0d2.css",
+    "main.js": "/lasel-vpn/static/js/main.fcaa7022.js",
+    "static/js/453.7c6e6496.chunk.js": "/lasel-vpn/static/js/453.7c6e6496.chunk.js",
+    "static/media/heroimg.png": "/lasel-vpn/static/media/heroimg.dd8362dbe4f825bff103.png",
+    "static/media/feaimg.png": "/lasel-vpn/static/media/feaimg.0fbdab4c331c69a1e9f2.png",
+    "static/media/Globalmap.png": "/lasel-vpn/static/media/Globalmap.d71a2802ec02f109530b.png",
+    "static/media/Premium.png": "/lasel-vpn/static/media/Premium.aaef2b19d501d18d0afe.png",
+    "static/media/Standard.png": "/lasel-vpn/static/media/Standard.a3d55b3bbd7bda729ea9.png",
+    "static/media/Free.png": "/lasel-vpn/static/media/Free.ff1e10266ca962ba7ead.png",
+    "static/media/slick.svg": "/lasel-vpn/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lasel-vpn/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lasel-vpn/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/lasel-vpn/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/lasel-vpn/index.html",
+    "main.88bcf0d2.css.map": "/lasel-vpn/static/css/main.88bcf0d2.css.map",
+    "main.fcaa7022.js.map": "/lasel-vpn/static/js/main.fcaa7022.js.map",
+    "453.7c6e6496.chunk.js.map": "/lasel-vpn/static/js/453.7c6e6496.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88bcf0d2.css",
+    "static/js/main.fcaa7022.js"
+  ]
+}
