@@ -3,7 +3,11 @@
 
 :root{
   font-size: 16px;
-  scroll-behavior: smooth;
+ 
+}
+
+html{
+ scroll-behavior: smooth;
 }
 
 
@@ -400,14 +404,23 @@ color: white;
 }
 
 .features-text p::before{
-  content: url('assets/greenimg.png');
+  content: ''; 
+  background-image: url('assets/greenimg.png');
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
   
+  width: 1.5rem;
+  height: 1.5rem;
+  
+  position: absolute;
   top: 50%;
   left: 0;
-  height: 100%;
   transform: translateY(-50%);
-  position: absolute;
+ 
+ 
 }
+
+
 
 .features-text h2, .features-text h6, .features-text p{
   opacity: 0;
@@ -1116,10 +1129,10 @@ color: white;
 @media (max-width: 650px){
 
    html{
-          font-size: 12px;
+          font-size: 13px;
   }
   :root{
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .subscribe{
@@ -1136,10 +1149,10 @@ color: white;
 @media (max-width: 600px){
 
    html{
-          font-size: 12px;
+          font-size: 13px;
   }
   :root{
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .subscribe{

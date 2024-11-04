@@ -26,7 +26,7 @@ export default function Stats() {
               } else {
                 clearInterval(userint);
               }
-            }, 70);
+            }, 50);
 
            
 
@@ -65,7 +65,7 @@ export default function Stats() {
               } else {
                 clearInterval(locationint);
               }
-            }, 100);
+            }, 70);
 
           
 
@@ -102,7 +102,7 @@ export default function Stats() {
               } else {
                 clearInterval(serverint);
               }
-            }, 100);
+            }, 70);
 
             // Optional: Unobserve the element after it has been animated
             observer.unobserve(entry.target);
